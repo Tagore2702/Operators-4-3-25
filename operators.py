@@ -66,8 +66,6 @@ a<=b or b!=a
 True
 a!=b or b>a
 True
-a=b or b=a
-SyntaxError: invalid syntax. Maybe you meant '==' or ':=' instead of '='?
 a==b or b==a
 False
 not True
@@ -108,7 +106,7 @@ if 10 in z:
 if 10 not in z:
     print(10)
 
-    
+#Bitwise operators    
 10
 e=2
 f=5
@@ -145,3 +143,4 @@ a=1
 b=4
 a^b
 5
+
